@@ -1,3 +1,5 @@
+/** Stale useCallback sample bypass no-use-before-define */
+
 import React, { useState, useCallback } from "react";
 import ReactDOM from "react-dom";
 
