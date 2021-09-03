@@ -1,7 +1,7 @@
 {
-  "name": "reactjs-sample",
+  "name": "stale-hooks-2-sample",
   "version": "1.0.0",
-  "description": "",
+  "description": "An example of creating a counter component using React Hooks.",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
