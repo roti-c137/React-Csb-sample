@@ -1,22 +1,14 @@
-import React, { useState, useRef, useCallback, useEffect } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
-
+import LeetCode from "./LeetCode";
 import "./styles.css";
 
 function App() {
-  const [merchantDetail, setMerchantDetail] = useState({});
-  const [productData, setProductData] = useState([]);
-
-  function getMerchantDetail() {
-    setMerchantDetail({ id: "MBB100" });
-    // setProductData([id:])
-  }
-
-  useEffect(() => {
-    getMerchantDetail();
-  }, []);
-
-  return <div className="App"></div>;
+    return (
+        <div className="App">
+            <LeetCode></LeetCode>
+        </div>
+    );
 }
 
 const rootElement = document.getElementById("root");
